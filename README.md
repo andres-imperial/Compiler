@@ -4,6 +4,8 @@ The objective is to create a symbol table handling mechanism and generating an a
 simplified version of Rat16F.
 
 ### How to Compile:
+Download/Clone the Compiler repo  
+  `git clone http://github.com/andres-imperial/Compiler.git`  
 Have all source code in one directory and run the following command to compile with 
 g++(requires c++11 libraries):  
   `g++ -g -std=c++11 main.cpp -o Assembler`
