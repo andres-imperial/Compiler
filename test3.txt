@@ -1,0 +1,21 @@
+$$
+$$ 
+	integer   i, max, sum;
+     	integer   low, high, step; 
+
+     	read(low, high, step); 
+     	while (low < high)   
+        {  
+ 	     	print (low); 
+             	low := low + step; 
+        }  
+
+	sum := 0;
+	i := 1;
+	read(max);
+	while(i < max){
+		sum := sum + i;
+		i := i + 1;
+	}
+	print(sum + max);
+$$

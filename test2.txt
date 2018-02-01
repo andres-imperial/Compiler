@@ -1,0 +1,10 @@
+$$
+$$
+	integer max;
+	boolean coffee, tea;
+	
+	coffee := true;
+	tea := false;
+	read(max);
+	print(max);
+$$
